@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Figtree', sans-serif;
+}
+
+
+
+
+
+
+body{
+   background-color:  hsl(47, 88%, 63%);
+   width:100vw;
+   height:100vh;
+   
+
+   
+   
+
+   
+
+
+}
+.container{
+    background-color: hsl(0, 0%, 100%) ;
+    width: 384px;
+    height:522px;
+    padding:24px;
+box-shadow: 10px 20px black;
+ border-radius:20px; 
+position: absolute;
+top:50vh;
+left:50vw;
+margin-left:-192px;
+margin-top:-261px;
+
+
+
+
+
+}
+.container div:first-child img {
+    width: 100%;
+    border-radius: 20px;
+     margin-bottom: 24px;
+  }
+  
+  .container div:nth-child(2) h2{
+    display: inline;
+    background-color:  hsl(47, 88%, 63%);
+    font-size: 16px;
+    font-weight:800;
+  
+  
+    padding:3px 8px;
+    border-radius:4px;
+  
+  }
+  .container div:nth-child(2) p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:12px;
+    margin-bottom:12px;
+    color:grey;
+   
+  }
+  .container div:nth-child(2) h1{
+    font-weight:800px;
+    font-size: 24px;
+    margin-bottom: 12px;
+    
+    
+  }
+  
+
+
+
+  
+  .container div:nth-child(2) ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:12px;
+    position:absolute;
+    bottom:24px;
+  }
+  .container div :nth-child(2) ul  :nth-child(1){
+  width:32px;
+  height:32px;
+  }
+  .container div :nth-child(2) ul  :nth-child(2){
+    font-family: "Figtree",sans-serif;
+    font-size:16;
+    font-weight:bold;
+
+    
+  }
+
+  
+
